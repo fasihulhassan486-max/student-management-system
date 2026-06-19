@@ -1,0 +1,140 @@
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4a90e2, #6a11cb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    border-radius: 15px;
+    width: 85%;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    color: white;
+}
+
+/* Heading */
+h1, h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: #ff7f50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #ff5722;
+}
+
+/* Buttons row */
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffe082;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Table styling */
+table {
+    margin-top: 20px;
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table header */
+th {
+    background: #4a90e2;
+    color: white;
+    padding: 12px;
+}
+
+/* Table data */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #222;
+}
+
+/* Row hover effect */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Action buttons */
+.update {
+    background: orange;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete {
+    background: red;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.update:hover {
+    opacity: 0.8;
+}
+
+.delete:hover {
+    opacity: 0.8;
+}
